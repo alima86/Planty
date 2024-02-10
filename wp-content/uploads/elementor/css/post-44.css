@@ -8,4 +8,13 @@
 						 .elementor-44 .elementor-element.elementor-element-5526930 nav.hfe-dropdown-expandible li a.hfe-menu-item,
 						 .elementor-44 .elementor-element.elementor-element-5526930 nav.hfe-dropdown-expandible li a.hfe-sub-menu-item{padding-top:15px;padding-bottom:15px;}.elementor-44 .elementor-element.elementor-element-5526930 .sub-menu li.menu-item:not(:last-child),
 						.elementor-44 .elementor-element.elementor-element-5526930 nav.hfe-dropdown li.menu-item:not(:last-child),
-						.elementor-44 .elementor-element.elementor-element-5526930 nav.hfe-dropdown-expandible li.menu-item:not(:last-child){border-bottom-style:solid;border-bottom-color:#c4c4c4;border-bottom-width:1px;}.elementor-44 .elementor-element.elementor-element-5526930 .menu-item a.hfe-menu-item.elementor-button{color:var( --e-global-color-astglobalcolor5 );background-color:var( --e-global-color-astglobalcolor1 );}@media(min-width:768px){.elementor-44 .elementor-element.elementor-element-3d588fd{--width:50%;}.elementor-44 .elementor-element.elementor-element-9592a21{--width:50%;}}
+						.elementor-44 .elementor-element.elementor-element-5526930 nav.hfe-dropdown-expandible li.menu-item:not(:last-child){border-bottom-style:solid;border-bottom-color:#c4c4c4;border-bottom-width:1px;}.elementor-44 .elementor-element.elementor-element-5526930 .menu-item a.hfe-menu-item.elementor-button{color:var( --e-global-color-astglobalcolor5 );background-color:var( --e-global-color-astglobalcolor1 );}@media(min-width:768px){.elementor-44 .elementor-element.elementor-element-3d588fd{--width:50%;}.elementor-44 .elementor-element.elementor-element-9592a21{--width:50%;}}/* Start custom CSS for navigation-menu, class: .elementor-element-5526930 */a#admin-link {
+    color: black;
+}
+
+a#admin-link {
+    position: relative;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}/* End custom CSS */

@@ -10,7 +10,7 @@ function theme_enqueue_styles() {
  function custom_menu_admin_link($items) {
    $menu = wp_get_nav_menu_object( 3 );
      if (is_user_logged_in() && $menu->name == 'Navigation' )  {
-         $items .= '<li><a href="' . admin_url() . '">Admin</a></li>';
+         $items .= '<li><a id="admin-link" href="' . admin_url() . '">Admin</a></li>';
      }
      return $items;
  }

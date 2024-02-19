@@ -55,6 +55,20 @@ class WPR_Templates_Data {
 					'priority' => 50,
 				],
 			],
+			'amazon-landing-page' => [
+				'v1' => [
+					'name' => 'Amazon Product Landing Page',
+					'pages' => 'home,',
+					'plugins' => '{}',
+					'tags' => 'amazon product sale coupon free page landing page one page onepage landingpage marketing promotion landing page for amazon single product digital product coupon',
+					'theme-builder' => true,
+					'woo-builder' => false,
+					'off-canvas' => false,
+					'price' => $is_pro_active ? 'free' : 'free',
+					'label' => 'new',
+					'priority' => 50,
+				],
+			],
 			'coming-soon-pack' => [
 				'v1' => [
 					'name' => 'Coming Soon Pack',
@@ -332,6 +346,18 @@ class WPR_Templates_Data {
 					'off-canvas' => false,
 					'price' => $is_pro_active ? 'free' : 'free',
 					'label' => 'trending',
+					'priority' => 2,
+				],
+				'v4' => [
+					'name' => 'Personal Blog v4',
+					'pages' => 'home,home-v2,home-v3,home-v4,single-blog,about,contact,',
+					'plugins' => '{}',
+					'tags' => 'free blog blogger posts personal blog lifestyle blogger theme builder grid slider news magazine cute',
+					'theme-builder' => true,
+					'woo-builder' => false,
+					'off-canvas' => true,
+					'price' => $is_pro_active ? 'free' : 'free',
+					'label' => 'new',
 					'priority' => 1,
 				],
 			],
@@ -495,6 +521,20 @@ class WPR_Templates_Data {
 					'priority' => 200,
 				],
 			],
+			'designer-bio' => [
+				'v1' => [
+					'name' => 'Designer Bio V1',
+					'pages' => 'home,',
+					'plugins' => '{}',
+					'tags' => 'free portfolio personal cv designer ux artist artwork personal resume photographer grid one page onepage clean creative freelanceer vcard',
+					'theme-builder' => true,
+					'woo-builder' => false,
+					'off-canvas' => true,
+					'price' => $is_pro_active ? 'free' : 'free',
+					'label' => 'new',
+					'priority' => 200,
+				],
+			],
 			'digital-marketing-agency' => [
 				'v1' => [
 					'name' => 'Digital Marketing Agency v1',
@@ -639,6 +679,20 @@ class WPR_Templates_Data {
 					'price' => $is_pro_active ? 'free' : 'free',
 					'label' => '',
 					'priority' => 80,
+				],
+			],
+			'developer-portfolio' => [
+				'v1' => [
+					'name' => 'Developer Portfolio - v1',
+					'pages' => 'home,portfolio,about,services,resume,contact,',
+					'plugins' => '{}',
+					'tags' => 'web developer portfolio dev projects work resume coding code app design software free portfolio personal cv designer ux artist artwork personal resume creative freelanceer vcard',
+					'theme-builder' => true,
+					'woo-builder' => false,
+					'off-canvas' => false,
+					'price' => $is_pro_active ? 'free' : 'free',
+					'label' => 'new',
+					'priority' => 3,
 				],
 			],
 			'nft-portfolio' => [
@@ -1429,6 +1483,12 @@ class WPR_Templates_Data {
 				'pages' => ['home','about','services','pricing','contact'],
 				'preview' => ['home','about-us','services','pricing','contact'],
 				'price' => $is_pro_active ? 'free' : 'pro',
+			],
+			'developer-portfolio-v1' => [
+				'name' => 'Developer Portfolio - v1',
+				'pages' => ['home','portfolio','about','services','resume','contact'],
+				'preview' => ['home','portfolio','about','services','resume','contact'],
+				'price' => $is_pro_active ? 'free' : 'free',
 			],
 			'medical-v1' => [
 				'name' => 'Medical',
